@@ -1,1 +1,47 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Text):         #B4D2E7      (text, contrast with dark)
+* Pine Green (Primary):    #136F63      
+* Light Blue (Secondary): #94C5CC      (canvas background)
+* Wine (Accent):  #6D3B47
+*/
+
+.bg-info {
+    background-color: #94C5CC !important; /* Light blue for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #136F63;            /* Pine green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #B4D2E7;            /* Lightest shade for text on info button for contrast */
+    background-color: #94C5CC; /* Light blue for button background */
+    border-color: #136F63;     /* Pine green for button border */
+}
+
+.btn-primary {
+    color: #B4D2E7;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #136F63; /* Pine green for primary button background */
+    border-color: #6D3B47;     /* Wine for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #B4D2E7; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.container {
+    margin: 10px;
+}
